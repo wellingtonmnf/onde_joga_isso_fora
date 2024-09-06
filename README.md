@@ -12,17 +12,17 @@ Se você já se fez alguma dessas perguntas:
 
 **Bem... você chegou ao lugar certo! 🎉**
 
-**O que faz essa aplicação?**
+## O que faz essa aplicação? ##
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🌎  Imagine um mundo onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
 **Como funciona?**
 
-* 1. **Busca mágica:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como horários, tipos de materiais aceitos e dicas de como preparar os itens para descarte. 
-* 2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca.
-* 3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos.
+1. **Busca mágica:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como horários, tipos de materiais aceitos e dicas de como preparar os itens para descarte. 
+2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca.
+3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos.
 
-E mais!
+**E mais!**
 
 * **Mapa da sustentabilidade:** Visualize os pontos de coleta no mapa e encontre o que está mais próximo da sua localização. 🗺️
 * **Dicas e truques:**  Aprenda dicas para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱
@@ -35,7 +35,7 @@ E mais!
 
 **Junte-se a nós nesta jornada rumo a um futuro mais verde!** 💚
 
-**Como usar:**
+## Como usar: ##
 
 1. **Acesse o link:** [Clique aqui](https://imersao-dev-gemini-alura.vercel.app/) para abrir a aplicação web e testar a busca na base de dados.
 
@@ -64,7 +64,7 @@ E mais!
 
 **Estou ansioso para receber sua contribuição para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
 
-**"Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo!** 🚀
+## "Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo! ## 🚀
 
 **1, 2, 3... YES!**
 
