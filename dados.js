@@ -25,7 +25,7 @@ let dadosBahia = [
     },
     {
       titulo: "Salvador Reciclagem",
-      descricao: "Reduza. Reaproveite. Recicle.",
+      descricao: "Reduza. Reaproveite. Recicle. Centro de reciclagem que recebe todos os tipos de descartes existentes.",
       endereco:"Av. Jorge Amado, 40 - Imbuí, Salvador - BA,",
       horario:"SEG-SAB 08:00 às 17:00",
       link: "https://www.instagram.com/salvadorreciclagem/",
