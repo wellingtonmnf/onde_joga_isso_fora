@@ -6,21 +6,21 @@
 
 Se você já se fez alguma dessas perguntas: 
 
-* "Eu jogo essa lâmpada velha no lixo comum mesmo?" 
-* "Será que esse óleo de fritura vai entupir meu esgoto?"
-* "Tem algum lugar pra eu empilhar essa pilha de pilhas?"
+* "Eu jogo essa lâmpada velha no lixo comum mesmo?" 💡
+* "Será que esse óleo de fritura vai entupir meu esgoto?" 🪣
+* "Tem algum lugar pra eu empilhar essa pilha de pilhas?" 🔋
 
 **Bem... você chegou ao lugar certo! 🎉**
 
-## O que faz essa aplicação? ##
+### O que faz essa aplicação? ###
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🌎  Imagine um mundo onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
 **Como funciona?**
 
 1. **Busca mágica:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como horários, tipos de materiais aceitos e dicas de como preparar os itens para descarte. 
-2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca.
-3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos.
+2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca. 📃
+3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos. 🔗
 
 **E mais!**
 
@@ -35,11 +35,11 @@ Se você já se fez alguma dessas perguntas:
 
 **Junte-se a nós nesta jornada rumo a um futuro mais verde!** 💚
 
-## Como usar: ##
+### Como usar: ###
 
-1. **Acesse o link:** [Clique aqui](https://imersao-dev-gemini-alura.vercel.app/) para abrir a aplicação web e testar a busca na base de dados.
+1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
 
-**Quer contribuir?**
+### Quer contribuir? ###
 
 **Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
@@ -64,13 +64,17 @@ Se você já se fez alguma dessas perguntas:
 
 **Estou ansioso para receber sua contribuição para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
 
-## "Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo! ## 🚀
+### "Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo! 🚀 ###
+
+**#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
 
 **1, 2, 3... YES!**
 
 ![YES gif README.md](imagens/giphy.webp)
 
-**#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
+---
+
+### Desenvolvido por: ###
 
 **Wellington Morais | [Perfil no GitHub](https://github.com/wellingtonmnf)**
 

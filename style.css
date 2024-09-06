@@ -4,7 +4,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "News Cycle", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background-color: #FFFAFA; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -17,7 +17,7 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #2F4F4F; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -47,7 +47,7 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #30475E; /* Cor de fundo do botão */
+    background-color: #2F4F4F; /* Cor de fundo do botão */
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
@@ -55,7 +55,7 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #398d8d; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
