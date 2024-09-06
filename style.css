@@ -1,10 +1,12 @@
-/* Importa a fonte News Cycle do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+/* Importa as fontes Cabin Sketch e Titillium Web do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "News Cycle", sans-serif; /* Define a fonte padrão */
-    background-color: #FFFAFA; /* Cor de fundo da página */
+    font-family: "Titillium Web", sans-serif; /* Define a fonte padrão */
+    background-color: #2F743b; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -12,14 +14,26 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    overflow-y: hidden;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
+    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #2F4F4F; /* Cor do texto */
+    color: #e9d2b2; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    padding-top: 25px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
+}
+
+/* Estiliza o subtítulo da página principal*/
+.subtitulo {
+    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #e9d2b2; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras */
 }
 
 /* Estiliza as seções da página */
@@ -37,7 +51,7 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: #3a413b; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -47,15 +61,15 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #2F4F4F; /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
+    background-color: #e9d2b2; /* Cor de fundo do botão */
+    color: #2F743b; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #398d8d; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #f0c78e; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
@@ -67,11 +81,14 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    margin-bottom: 75px; /* Adiciona um espaçamento de 50px entre a seção de resultados e o footer */
+    box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
+    padding-bottom: 75px; /* altura do rodapé */
 }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
+    background: #e9d2b2; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
@@ -81,13 +98,13 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #2F743b; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    color: #2F743b; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -97,20 +114,33 @@ section button:hover {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
+    color: #3a413b; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+    background-color: #e9d2b2; /* Cor de fundo do rodapé */
+    color: #3a413b; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
-    width: 100%; /* Largura total da página */
+    left: 0; /* Define a posição do footer na esquerda da página */
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
+    width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
+    clear: both; /* Adiciona um clear para que o footer seja empurrado para baixo da página */
+}
+
+/* Estiliza os links dentro do rodapé */
+footer a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #2F743b; /* Cor do texto dos links */
+}
+
+/* Estiliza os links dentro do rodapé quando são passados o mouse sobre */
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
 @media (max-width: 768px) {
