@@ -96,11 +96,18 @@ section {
 .descricao-sobre { 
     width: 60rem; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 60rem;
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
     margin-bottom: 75px; /* Adiciona um espaçamento de 75px entre a seção de resultados e o footer */
+    box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
+    padding-bottom: 75px; /* altura do rodapé */
 }
 
 /* Estiliza os títulos dentro da section */
@@ -118,6 +125,9 @@ section {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 90%;
+    max-width: 60rem;
+    flex-grow: 1; /* Adicione flex-grow para distribuir o espaço */
 }
 
 /* Estiliza os títulos dentro dos cards de dicas */
@@ -135,16 +145,18 @@ section {
 .cards-sobre p {
     font-size: 1rem; /* Tamanho da fonte */
     color: #3a413b; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza os itens de lista dentro dos cards de dicas */
 .cards-sobre li {
     font-size: 1rem; /* Tamanho da fonte */
     color: #3a413b; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza os links dentro dos cards de dicas */
-.cards-sobre {
+.cards-sobre a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #2F743b; /* Cor do texto dos links */
 }

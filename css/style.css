@@ -204,7 +204,7 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
-    margin-bottom: 75px; /* Adiciona um espaçamento de 50px entre a seção de resultados e o footer */
+    margin-bottom: 75px; /* Adiciona um espaçamento de 75px entre a seção de resultados e o footer */
     box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
     padding-bottom: 75px; /* altura do rodapé */
 }
