@@ -28,9 +28,7 @@ body {
     color: #2F743b;
     padding: 10px;
     text-align: center;
-    max-width: 100%; /* ajuste a largura máxima */
-    padding: 1rem; /* adicione padding para que o elemento seja responsivo */
-    box-sizing: border-box; /* inclua padding e borda na largura total */
+}
   
 .menu-topo ul {
     list-style: none;
@@ -92,7 +90,6 @@ section {
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
-    box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -104,8 +101,6 @@ section {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
     margin-bottom: 75px; /* Adiciona um espaçamento de 50px entre a seção de resultados e o footer */
-    box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
-    padding-bottom: 75px; /* altura do rodapé */
 }
 
 /* Estiliza cada card de dicas */
@@ -115,10 +110,6 @@ section {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    max-width: 80%; /* ajuste a largura máxima */
-    margin: 0 auto; /* centralize o elemento */
-    padding: 1rem; /* adicione padding para que o elemento seja responsivo */
-    box-sizing: border-box; /* inclua padding e borda na largura total */
 }
 
 /* Estiliza os títulos dentro dos cards de dicas */
@@ -250,4 +241,4 @@ footer a:hover {
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
-}}
+}
