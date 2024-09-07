@@ -72,7 +72,7 @@ Se você já se fez alguma dessas perguntas:
 
 ---
 
-### "Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo! 🚀 ###
+## "Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo! 🚀 ##
 
 **#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
 
