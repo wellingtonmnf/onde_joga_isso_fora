@@ -61,7 +61,7 @@ section {
 }
 
 .barra-dividida {
-    width: 50%;
+    width: auto;
     display: flex; /* adiciona flexbox para alinhar os elementos lado a lado */
     align-items: center; /* alinha os elementos verticalmente */
 }
