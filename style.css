@@ -17,6 +17,47 @@ body {
     overflow-y: hidden;
 }
 
+.menu-topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 18px; /* aumenta o tamanho da fonte para 18px */
+    font-weight: bold; /* deixa os textos em negrito */
+    background-color: #e9d2b2;
+    color: #2F743b;
+    padding: 10px;
+    text-align: center;
+}
+  
+.menu-topo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu-topo li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-topo li:hover {
+    background-color: #2F743b; /* inverte a cor do fundo para verde */
+    display: inline-block;
+  }
+  
+.menu-topo a {
+    background-color: #e9d2b2; /* inverte a cor do fundo para verde */
+    color: #2F743b;
+    text-decoration: none;
+}
+  
+.menu-topo a:hover {
+    background-color: #2F743b; /* inverte a cor do fundo para verde */
+    color: #e9d2b2; /* inverte a cor da fonte para preto */
+    padding: 10px;
+}
+
 /* Estiliza os títulos h1 */
 h1 {
     font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
@@ -24,6 +65,7 @@ h1 {
     color: #e9d2b2; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    margin-top: 100px;
     padding-top: 25px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
     padding-left: 5vw;
     padding-right: 5vw;
