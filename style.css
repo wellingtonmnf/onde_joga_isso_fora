@@ -68,14 +68,14 @@ section {
   
 .lista-estados {
     display: inline-block; /* alinha os elementos lado a lado */
-    width: 15%; /* define a largura do primeiro elemento */
+    width: 20%; /* define a largura do primeiro elemento */
     margin: 10px; /* adiciona um espaço entre os elementos */
     margin-right: 0px; /* adiciona um espaço entre os elementos */
 }
   
 #campo-pesquisa {
     display: inline-block; /* alinha os elementos lado a lado */
-    width: 65%; /* define a largura do segundo elemento */
+    width: 60%; /* define a largura do segundo elemento */
     margin: 10px; /* adiciona um espaço entre os elementos */
     margin-left: 0px; /* adiciona um espaço entre os elementos */
     margin-right: 0px; /* adiciona um espaço entre os elementos */
