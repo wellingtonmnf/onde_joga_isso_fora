@@ -1,27 +1,27 @@
-// Obtém o estado com o valor da lista de estados
+// Obtém a lista de estados e guarda numa variável
 let listaEstados = document.getElementById("lista-estados");
-//cria uma variável apra o estado selecionado
+//cria uma variável para o estado selecionado
 let estadoSelecionado = "";
-// Adiciona um evento de escuta para o evento 'change'
+// Adiciona um evento de escuta para a seleção de um estado na lista
 listaEstados.addEventListener('change', function() {
-    // Atualiza a variável estadoSelecionado
+    // Atualiza a variável estadoSelecionado e limpa o campo de resultados a cada alteração de estado
     estadoSelecionado = listaEstados.value;
     let section = document.getElementById("resultados-pesquisa");
     section.innerHTML = "";
 });
-// Obtém o elemento de entrada da caixa de pesquisa
+// Obtém o elemento 'caixa de busca'
 let campoPesquisa = document.getElementById("campo-pesquisa");
-// Adiciona um evento de escuta para o evento 'keyup'
+// Adiciona um evento de escuta para uma tecla apertada no campo de busca
 campoPesquisa.addEventListener('keyup', function(event) {
     // Verifica se a tecla pressionada foi 'Enter'
     if (event.key === 'Enter') {
+        // Aciona a função de pesquisa se o usuário apertar a tecla 'enter'
         pesquisar();
     } 
 });
-
-// Realiza a função de pesquisar a base de dados
+// Realiza a função de pesquisar na base de dados
 function pesquisar() {
-    // Obtém o valor atual do select
+    // Obtém o valor do estado atual selecionado
     let estado = estadoSelecionado;
     // Checa se o valor da lista de estados está vazio ou não
     if (!estado) {
@@ -29,7 +29,7 @@ function pesquisar() {
         section.innerHTML = "<h3>Nenhum estado selecionado.</h3><h3>Por favor, escolha um dos estados da lista</h3>";
         return;
     }
-    // Obtém a seção com o valor do campo da pesquisa
+    // Obtém o valor do dado inserido no campo da pesquisa
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
     // Converte todo o texto digitado para letras minúsculas
     campoPesquisa = campoPesquisa.toLowerCase();
@@ -40,30 +40,31 @@ function pesquisar() {
         section.innerHTML = "<h3>Nenhum valor passado.</h3><h3>Por favor, digite um tipo de resíduo a ser descartado</h3>";
         return;
     }
-    let listaDados = "";
-    // Atribui lista a variável de acordo com o estado selecionado
+    // Cria uma variável para receber a base de dados do estado
+    let dadosEstado = "";
+    // Atribui a lista (base de dados) a variável de acordo com o estado selecionado
     switch (estado) {
         case 'BA':
-            listaDados = dadosBA;
+            dadosEstado = dadosBA;
             break;
         case 'PR':
-            listaDados = dadosPR;;
+            dadosEstado = dadosPR;
             break;
         case 'SC':
-            listaDados = dadosSC;;
+            dadosEstado = dadosSC;
             break;
     }
     // Inicializa uma string vazia para armazenar os resultados formatados
     let resultados = "";
-    // Inicializa uma string vazia para comparar com o termo de busca
+    // Inicializa uma string vazia para comparar as tags com o termo de busca
     let tipoResiduo = "";
     // Itera sobre cada dado na lista de dados
-    for (let dado of listaDados) {
-        // Converte todo o texto das variáveis para letras minúsculas
+    for (let dado of dadosEstado) {
+        // Converte todo o texto das tags para letras minúsculas
         tipoResiduo = dado.tipoResiduo.toLowerCase();
-        // Compara se o campo da busca está contido nas tags da base de dados
+        // Compara se o valor no campo da busca está contido nas tags da base de dados
         if (tipoResiduo.includes(campoPesquisa)) {
-            // Cria uma div para cada resultado, formatando o título, descrição e link
+            // Cria uma div para cada resultado, formatando o título, endereço, horário e link
             resultados += `
                 <div class="item-resultado">
                     <h2>
@@ -76,15 +77,7 @@ function pesquisar() {
             `;
         }    
     }
-
-
-    if (!resultados) {
-        section.innerHTML = "<h3>Nenhum resultado encontrado</h3>";
-    } else {
-        section.innerHTML = resultados;
-    }
-
-    // Retorna um parágrafo informando que não foram encontrados resultados na base de dados
+    // Retorna uma mensagem informando que não foram encontrados resultados na base de dados
     if (!resultados) {
         section.innerHTML = "<h3>Nenhum resultado encontrado</h3>";
         return;
