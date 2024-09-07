@@ -1,0 +1,364 @@
+/* Importa as fontes Cabin Sketch e Titillium Web do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Titillium Web", sans-serif; /* Define a fonte padrão */
+    background-color: #2F743b; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    overflow-y: hidden;
+}
+
+.menu-topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 18px; /* aumenta o tamanho da fonte para 18px */
+    font-weight: bold; /* deixa os textos em negrito */
+    background-color: #e9d2b2;
+    color: #2F743b;
+    padding: 10px;
+    text-align: center;
+}
+  
+.menu-topo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu-topo li {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.menu-topo li:hover {
+    background-color: #2F743b; /* inverte a cor do fundo para verde */
+  }
+  
+.menu-topo a {
+    background-color: #e9d2b2; /* inverte a cor do fundo para verde */
+    color: #2F743b;
+    text-decoration: none;
+    box-sizing: border-box; /* adiciona padding ao tamanho do elemento */
+    padding: 10px; /* adiciona padding para que o hover funcione corretamente */
+    transition: transform 0.2s; /* adiciona efeito de transição */
+}
+  
+.menu-topo a:hover {
+    background-color: #2F743b;
+    color: #e9d2b2;
+    transform: scale(1.1); /* expande o elemento sem afetar a posição */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #e9d2b2; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    margin-top: 100px;
+    padding-top: 25px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+/* Estiliza os títulos h3 */
+h3 {
+    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    color: #e9d2b2; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras */
+    padding-top: 2px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+/* Estiliza o subtítulo da página principal*/
+.subtitulo {
+    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #e9d2b2; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras */
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+.barra-dividida {
+    width: auto;
+    display: flex; /* adiciona flexbox para alinhar os elementos lado a lado */
+    align-items: center; /* alinha os elementos verticalmente */
+}
+  
+.lista-estados {
+    display: inline-block; /* alinha os elementos lado a lado */
+    width: 25%; /* define a largura do primeiro elemento */
+    margin: 10px; /* adiciona um espaço entre os elementos */
+    margin-right: 0px; /* adiciona um espaço entre os elementos */
+}
+  
+#campo-pesquisa {
+    display: inline-block; /* alinha os elementos lado a lado */
+    width: 50%; /* define a largura do segundo elemento */
+    margin: 10px; /* adiciona um espaço entre os elementos */
+    margin-left: 0px; /* adiciona um espaço entre os elementos */
+    margin-right: 0px; /* adiciona um espaço entre os elementos */
+}
+  
+#botao {
+    display: inline-block; /* alinha os elementos lado a lado */
+    width: 25% /* define a largura do terceiro elemento */
+    margin: 10px; /* adiciona um espaço entre os elementos */
+    margin-right: 0px; /* adiciona um espaço entre os elementos */
+}
+
+/* Estiliza as listas dentro das seções */
+section select {
+    width: 10rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    border-top-right-radius: 0rem; /* Borda arredondada */
+    border-bottom-right-radius: 0rem; /* Borda arredondada */
+    margin-right: 0rem; /* Espaçamento a direita dos inputs */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #3a413b; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 20rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    border-top-left-radius: 0rem; /* Borda arredondada */
+    border-bottom-left-radius: 0rem; /* Borda arredondada */
+    border-top-right-radius: 0rem; /* Borda arredondada */
+    border-bottom-right-radius: 0rem; /* Borda arredondada */
+    margin-left: 0rem; /* Espaçamento a esquerda dos inputs */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #3a413b; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    border-top-left-radius: 0rem; /* Borda arredondada */
+    border-bottom-left-radius: 0rem; /* Borda arredondada */
+    background-color: #e9d2b2; /* Cor de fundo do botão */
+    color: #2F743b; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Adiciona efeito hover ao botão de pesquisa */
+section button:hover {
+    background-color: #f0c78e; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+/* Estiliza a imagem do botão*/
+.imagem-botao {
+    width:auto; /* Define a largura do SVG */
+    max-height: 25px; /* limita a altura da imagem ao tamanho do container */
+    object-fit: contain; /* redimensiona a imagem para caber no container */
+    padding-left: 0vw;
+    padding-right: 0.35vw;
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    margin-bottom: 75px; /* Adiciona um espaçamento de 50px entre a seção de resultados e o footer */
+    box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
+    padding-bottom: 75px; /* altura do rodapé */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #e9d2b2; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #2F743b; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #2F743b; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #3a413b; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza a seção de descrição das dicas */
+.descricao-dicas {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    margin-bottom: 75px; /* Adiciona um espaçamento de 50px entre a seção de resultados e o footer */
+    box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
+    padding-bottom: 75px; /* altura do rodapé */
+}
+
+/* Estiliza cada item de resultado */
+.descricao-dicas p {
+    background: #e9d2b2; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.descricao-dicas h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #2F743b; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.descricao-dicas a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #2F743b; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.descricao-dicas a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #3a413b; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #e9d2b2; /* Cor de fundo do rodapé */
+    color: #3a413b; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    left: 0; /* Define a posição do footer na esquerda da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    width: 100%; /* Largura total da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    clear: both; /* Adiciona um clear para que o footer seja empurrado para baixo da página */
+}
+
+/* Estiliza os links dentro do rodapé */
+footer a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #2F743b; /* Cor do texto dos links */
+}
+
+/* Estiliza os links dentro do rodapé quando são passados o mouse sobre */
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Tamanho da fonte em telas menores */
+        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+
+    section input {
+        width: 25rem; /* Largura dos inputs em telas menores */
+        padding: 0.8rem; /* Espaçamento interno em telas menores */
+    }
+
+    .resultados-pesquisa {
+        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        height: 40vh; /* Altura da caixa de resultados em telas menores */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
+    }
+
+    section button {
+        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    .resultados-pesquisa {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+}
