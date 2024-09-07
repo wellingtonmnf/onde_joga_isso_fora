@@ -18,27 +18,31 @@ Se você já se fez alguma dessas perguntas:
 
 **Como funciona?**
 
-1. **pesquisa simples:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como horários e tipos de materiais aceitos.  
+1. **Pesquisa simples:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como endereço e horários.  
 2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca. 📃
 3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos. 🔗
 
 **E mais!**
 
-* **Dicas e truques:**  Aprenda dicas e como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱 
+* **Dicas e truques:**  Aprenda dicas de como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱 
 
 <img src="imagens/dicas.png" alt="Dicas" align="center">
 
 **Por que "Onde Joga Isso Fora?" é o app que você precisa?**
 
 * **Diga adeus à confusão:** Jogue fora o que precisa, sem ter que perder tempo pesquisando a fio na internet. 🚫
-* **Seja um herói da reciclagem:** Faça a diferença no meio ambiente, cuidando do planeta e descartando tudo no lugar certo.  🦸
+* **Seja um agente da reciclagem:** Faça a diferença no meio ambiente, cuidando do planeta e descartando tudo no lugar certo.  🦸
 * **Viva mais tranquilo:** Descarte os resíduos com segurança e evite problemas com o descarte inadequado. 😌
 
 **Vamos juntos nesta jornada rumo a um futuro mais sustentável!** 💚
 
+---
+
 ### Como usar: ###
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
+
+---
 
 ### Quer contribuir? ###
 
@@ -46,7 +50,7 @@ Se você já se fez alguma dessas perguntas:
 
 1. **Clone o repositório:** Use o Git para baixar o código para o seu computador.
 2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento.
-3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vvontade para implementar melhorias e contribuir com o projeto!
+3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto!
 
 **Tecnologias usadas:**
 
@@ -66,6 +70,8 @@ Se você já se fez alguma dessas perguntas:
 
 **Sinta-se livre para contribuir para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
 
+---
+
 ### "Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo! 🚀 ###
 
 **#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
@@ -84,7 +90,7 @@ Se você já se fez alguma dessas perguntas:
 * **Última atualização: 07/09/2024**
 
 ---
-### Considerações pontuais ###
+## Considerações pontuais ##
 
 ### Projeto base da Imersão Dev_ com Gemini da Alura
 
