@@ -67,20 +67,8 @@ h1 {
     color: #e9d2b2; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 25px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
-    padding-left: 5vw;
-    padding-right: 5vw;
-}
-
-/* Estiliza os títulos h3 */
-h3 {
-    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
-    font-size: 1.25rem; /* Tamanho da fonte */
-    color: #e9d2b2; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.1rem; /* Espaçamento entre letras */
-    padding-top: 2px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
     padding-left: 5vw;
     padding-right: 5vw;
 }
@@ -104,100 +92,8 @@ section {
     margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
 }
 
-.barra-dividida {
-    width: auto;
-    display: flex; /* adiciona flexbox para alinhar os elementos lado a lado */
-    align-items: center; /* alinha os elementos verticalmente */
-}
-  
-.lista-estados {
-    display: inline-block; /* alinha os elementos lado a lado */
-    width: 25%; /* define a largura do primeiro elemento */
-    margin: 10px; /* adiciona um espaço entre os elementos */
-    margin-right: 0px; /* adiciona um espaço entre os elementos */
-}
-  
-#campo-pesquisa {
-    display: inline-block; /* alinha os elementos lado a lado */
-    width: 50%; /* define a largura do segundo elemento */
-    margin: 10px; /* adiciona um espaço entre os elementos */
-    margin-left: 0px; /* adiciona um espaço entre os elementos */
-    margin-right: 0px; /* adiciona um espaço entre os elementos */
-}
-  
-#botao {
-    display: inline-block; /* alinha os elementos lado a lado */
-    width: 25% /* define a largura do terceiro elemento */
-    margin: 10px; /* adiciona um espaço entre os elementos */
-    margin-right: 0px; /* adiciona um espaço entre os elementos */
-}
-
-/* Estiliza as listas dentro das seções */
-section select {
-    width: 10rem; /* Largura dos inputs */
-    border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
-    border-top-right-radius: 0rem; /* Borda arredondada */
-    border-bottom-right-radius: 0rem; /* Borda arredondada */
-    margin-right: 0rem; /* Espaçamento a direita dos inputs */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #3a413b; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
-/* Estiliza os inputs dentro das seções */
-section input {
-    width: 20rem; /* Largura dos inputs */
-    border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
-    border-top-left-radius: 0rem; /* Borda arredondada */
-    border-bottom-left-radius: 0rem; /* Borda arredondada */
-    border-top-right-radius: 0rem; /* Borda arredondada */
-    border-bottom-right-radius: 0rem; /* Borda arredondada */
-    margin-left: 0rem; /* Espaçamento a esquerda dos inputs */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #3a413b; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
-/* Estiliza os botões dentro das seções */
-section button {
-    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
-    border: none; /* Remove a borda padrão */
-    border-radius: 1.5rem; /* Borda arredondada */
-    border-top-left-radius: 0rem; /* Borda arredondada */
-    border-bottom-left-radius: 0rem; /* Borda arredondada */
-    background-color: #e9d2b2; /* Cor de fundo do botão */
-    color: #2F743b; /* Cor do texto do botão */
-    font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
-/* Adiciona efeito hover ao botão de pesquisa */
-section button:hover {
-    background-color: #f0c78e; /* Muda a cor de fundo ao passar o mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
-}
-
-/* Estiliza a imagem do botão*/
-.imagem-botao {
-    width:auto; /* Define a largura do SVG */
-    max-height: 25px; /* limita a altura da imagem ao tamanho do container */
-    object-fit: contain; /* redimensiona a imagem para caber no container */
-    padding-left: 0vw;
-    padding-right: 0.35vw;
-}
-
 /* Estiliza a caixa de resultados da pesquisa */
-.resultados-pesquisa {
+.descricao-dicas { 
     width: 60rem; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
@@ -209,8 +105,8 @@ section button:hover {
     padding-bottom: 75px; /* altura do rodapé */
 }
 
-/* Estiliza cada item de resultado */
-.item-resultado {
+/* Estiliza cada card de dicas */
+.cards-dicas { 
     background: #e9d2b2; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
@@ -218,72 +114,58 @@ section button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
+/* Estiliza os títulos dentro dos cards de dicas */
+.cards-dicas h2 {
+    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #2F743b; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras */
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
-/* Estiliza os links dentro dos itens de resultado */
-.item-resultado a {
+/* Estiliza os itens de lista dentro dos cards de dicas */
+.cards-dicas li {
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #3a413b; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos cards de dicas */
+.cards-dicas a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #2F743b; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
-.item-resultado a:hover {
+.cards-dicas a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
-/* Estiliza a descrição meta dentro dos itens de resultado */
-.descricao-meta {
-    color: #3a413b; /* Cor do texto */
-    margin: 0.5rem 0; /* Margem acima e abaixo */
-}
-
-/* Estiliza a seção de descrição das dicas */
-.descricao-dicas {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 46vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Borda arredondada */
-    margin-bottom: 75px; /* Adiciona um espaçamento de 50px entre a seção de resultados e o footer */
-    box-sizing: border-box; /* Inclui padding e borda na altura total do elemento */
-    padding-bottom: 75px; /* altura do rodapé */
-}
-
-/* Estiliza cada item de resultado */
-.descricao-dicas p {
+/* Estiliza o card de mensagem final */
+.card-mensagem { 
     background: #e9d2b2; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    align-content: center;
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
-.descricao-dicas h2 {
+/* Estiliza a imagem da seção de dicas*/
+.imagem-dicas {
+    display: block; /* torna a imagem um elemento de bloco */
+    margin: 0 auto; /* centraliza a imagem horizontalmente */
+    width: auto; /* Define a largura do SVG */
+    max-height: 100px; /* limita a altura da imagem ao tamanho do container */
+}
+
+/* Estiliza os títulos dentro do card de mensagem final */
+.card-mensagem h1 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #2F743b; /* Cor do texto */
-}
-
-/* Estiliza os links dentro dos itens de resultado */
-.descricao-dicas a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #2F743b; /* Cor do texto dos links */
-}
-
-/* Estiliza os links quando são passados o mouse sobre */
-.descricao-dicas a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
-
-/* Estiliza a descrição meta dentro dos itens de resultado */
-.descricao-meta {
-    color: #3a413b; /* Cor do texto */
-    margin: 0.5rem 0; /* Margem acima e abaixo */
+    margin-top: 10px;
+    padding-top: 5px;
 }
 
 /* Estiliza o rodapé da página */
