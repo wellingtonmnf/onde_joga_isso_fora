@@ -1,4 +1,4 @@
-let dadosBahia = [
+let dadosBA = [
     {
       titulo: "SO+MA Vantagens | Rio Vermelho",
       endereco:"Vila Caramuru - Praça Caramuru, 2 - Rio Vermelho, Salvador - BA",

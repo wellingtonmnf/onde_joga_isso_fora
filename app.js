@@ -1,27 +1,34 @@
 // Obtém o estado com o valor da lista de estados
-let estadoSelecionado = document.getElementById("estado-selecionado").value;
-// Checa se o valor da lista de estados está vazio ou não
-if (!estadoSelecionado) {
-    section.innerHTML = "<h3>Nenhum estado selecionado.</h3><h3>Por favor, escolha um dos estados da lista</h3>";
-    return;
-}
-
-//Precisa validar se o campo está vazio ou não quando aperta 'enter'
-
+let listaEstados = document.getElementById("lista-estados");
+//cria uma variável apra o estado selecionado
+let estadoSelecionado = "";
+// Adiciona um evento de escuta para o evento 'change'
+listaEstados.addEventListener('change', function() {
+    // Atualiza a variável estadoSelecionado
+    estadoSelecionado = listaEstados.value;
+    let section = document.getElementById("resultados-pesquisa");
+    section.innerHTML = "";
+});
 // Obtém o elemento de entrada da caixa de pesquisa
 let campoPesquisa = document.getElementById("campo-pesquisa");
-
 // Adiciona um evento de escuta para o evento 'keyup'
 campoPesquisa.addEventListener('keyup', function(event) {
     // Verifica se a tecla pressionada foi 'Enter'
     if (event.key === 'Enter') {
         pesquisar();
-    }
+    } 
 });
 
-//Precisa implementar o código pra exibir resultados de acordo com o estado selecionado
-
-function pesquisar(estadoSelecionado) {
+// Realiza a função de pesquisar a base de dados
+function pesquisar() {
+    // Obtém o valor atual do select
+    let estado = estadoSelecionado;
+    // Checa se o valor da lista de estados está vazio ou não
+    if (!estado) {
+        let section = document.getElementById("resultados-pesquisa");
+        section.innerHTML = "<h3>Nenhum estado selecionado.</h3><h3>Por favor, escolha um dos estados da lista</h3>";
+        return;
+    }
     // Obtém a seção com o valor do campo da pesquisa
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
     // Converte todo o texto digitado para letras minúsculas
@@ -30,18 +37,31 @@ function pesquisar(estadoSelecionado) {
     let section = document.getElementById("resultados-pesquisa");
     // Checa se o valor do campo da pesquisa está vazio ou não
     if (!campoPesquisa) {
-        section.innerHTML = "<h3>Nenhum valor passado.</h3><h3>Digite um tipo de resíduo a ser descartado</h3>";
+        section.innerHTML = "<h3>Nenhum valor passado.</h3><h3>Por favor, digite um tipo de resíduo a ser descartado</h3>";
         return;
+    }
+    let listaDados = "";
+    // Atribui lista a variável de acordo com o estado selecionado
+    switch (estado) {
+        case 'BA':
+            listaDados = dadosBA;
+            break;
+        case 'PR':
+            listaDados = dadosPR;;
+            break;
+        case 'SC':
+            listaDados = dadosSC;;
+            break;
     }
     // Inicializa uma string vazia para armazenar os resultados formatados
     let resultados = "";
-    // Inicializa duas strings vazias para armazenar os titulos e descriçoes dos objetos no for
+    // Inicializa uma string vazia para comparar com o termo de busca
     let tipoResiduo = "";
     // Itera sobre cada dado na lista de dados
-    for (let dado of dadosBahia) {
+    for (let dado of listaDados) {
         // Converte todo o texto das variáveis para letras minúsculas
         tipoResiduo = dado.tipoResiduo.toLowerCase();
-        // Compara se o campo da busca está contido nos títulos da base de dados
+        // Compara se o campo da busca está contido nas tags da base de dados
         if (tipoResiduo.includes(campoPesquisa)) {
             // Cria uma div para cada resultado, formatando o título, descrição e link
             resultados += `
@@ -57,11 +77,18 @@ function pesquisar(estadoSelecionado) {
         }    
     }
 
+
+    if (!resultados) {
+        section.innerHTML = "<h3>Nenhum resultado encontrado</h3>";
+    } else {
+        section.innerHTML = resultados;
+    }
+
+    // Retorna um parágrafo informando que não foram encontrados resultados na base de dados
     if (!resultados) {
         section.innerHTML = "<h3>Nenhum resultado encontrado</h3>";
         return;
     }
-
     // Atribui os resultados formatados ao conteúdo da seção
     section.innerHTML = resultados;
 }

@@ -29,6 +29,18 @@ h1 {
     padding-right: 5vw;
 }
 
+/* Estiliza os títulos h3 */
+h3 {
+    font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    color: #e9d2b2; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras */
+    padding-top: 2px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
 /* Estiliza o subtítulo da página principal*/
 .subtitulo {
     font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
