@@ -105,95 +105,69 @@ section {
 }
 
 .barra-dividida {
-    width: auto;
-    display: flex; /* adiciona flexbox para alinhar os elementos lado a lado */
-    align-items: center; /* alinha os elementos verticalmente */
+    width: auto; /* A barra ocupa toda a largura da tela */
+    display: flex; /* Adiciona Flexbox para alinhar os elementos lado a lado */
+    justify-content: space-around; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Alinha os elementos verticalmente */
 }
   
 .lista-estados {
-    display: inline-block; /* alinha os elementos lado a lado */
-    width: 25%; /* define a largura do primeiro elemento */
-    margin: 10px; /* adiciona um espaço entre os elementos */
-    margin-right: 0px; /* adiciona um espaço entre os elementos */
+    display: flex; /* Adiciona Flexbox para garantir altura e largura proporcional */
+    flex-grow: 1; /* Permite que o elemento cresça proporcionalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    border-top-right-radius: 0rem; /* Borda arredondada */
+    border-bottom-right-radius: 0rem; /* Borda arredondada */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #3a413b; /* Cor do texto */
+    background-color: #e9d2b2; /* Cor de fundo */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
   
 #campo-pesquisa {
-    display: inline-block; /* alinha os elementos lado a lado */
-    width: 50%; /* define a largura do segundo elemento */
-    margin: 10px; /* adiciona um espaço entre os elementos */
-    margin-left: 0px; /* adiciona um espaço entre os elementos */
-    margin-right: 0px; /* adiciona um espaço entre os elementos */
+    display: flex; /* Adiciona Flexbox para garantir altura e largura proporcional */
+    flex-grow: 1; /* Permite que o elemento cresça proporcionalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    border-top-left-radius: 0rem; /* Borda arredondada */
+    border-bottom-left-radius: 0rem; /* Borda arredondada */
+    border-top-right-radius: 0rem; /* Borda arredondada */
+    border-bottom-right-radius: 0rem; /* Borda arredondada */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #3a413b; /* Cor do texto */
+    background-color: #e9d2b2; /* Cor de fundo */
 }
   
 #botao {
-    display: inline-block; /* alinha os elementos lado a lado */
-    width: 25%; /* define a largura do terceiro elemento */
-    margin: 10px; /* adiciona um espaço entre os elementos */
-    margin-right: 0px; /* adiciona um espaço entre os elementos */
-}
-
-/* Estiliza as listas dentro das seções */
-section select {
-    width: 10rem; /* Largura dos inputs */
-    border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
-    border-top-right-radius: 0rem; /* Borda arredondada */
-    border-bottom-right-radius: 0rem; /* Borda arredondada */
-    margin-right: 0rem; /* Espaçamento a direita dos inputs */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #3a413b; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
-/* Estiliza os inputs dentro das seções */
-section input {
-    width: 20rem; /* Largura dos inputs */
-    border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
-    border-top-left-radius: 0rem; /* Borda arredondada */
-    border-bottom-left-radius: 0rem; /* Borda arredondada */
-    border-top-right-radius: 0rem; /* Borda arredondada */
-    border-bottom-right-radius: 0rem; /* Borda arredondada */
-    margin-left: 0rem; /* Espaçamento a esquerda dos inputs */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #3a413b; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
-/* Estiliza os botões dentro das seções */
-section button {
-    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    display: flex; /* Adiciona Flexbox para garantir altura e largura proporcional */
+    flex-grow: 1; /* Permite que o elemento cresça proporcionalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    padding: 10px; /* Adiciona espaçamento interno */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
     border-top-left-radius: 0rem; /* Borda arredondada */
     border-bottom-left-radius: 0rem; /* Borda arredondada */
-    background-color: #e9d2b2; /* Cor de fundo do botão */
-    color: #2F743b; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
+    color: #3a413b; /* Cor do texto */
+    background-color: #e9d2b2; /* Cor de fundo */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
-section button:hover {
+#botao:hover {
     background-color: #f0c78e; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
 /* Estiliza a imagem do botão*/
 .imagem-botao {
-    width:auto; /* Define a largura do SVG */
-    max-height: 25px; /* limita a altura da imagem ao tamanho do container */
-    object-fit: contain; /* redimensiona a imagem para caber no container */
-    padding-left: 0vw;
-    padding-right: 0.35vw;
+    width: 100%; /* Ocupa toda a largura do botão */
+    height: 100%; /* Ocupa toda a altura do botão */
+    object-fit: contain; /* Manter proporção */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
