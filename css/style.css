@@ -127,7 +127,7 @@ section {
   
 #botao {
     display: inline-block; /* alinha os elementos lado a lado */
-    width: 25% /* define a largura do terceiro elemento */
+    width: 25%; /* define a largura do terceiro elemento */
     margin: 10px; /* adiciona um espaço entre os elementos */
     margin-right: 0px; /* adiciona um espaço entre os elementos */
 }
