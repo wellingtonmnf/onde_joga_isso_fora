@@ -1,3 +1,13 @@
+// Obtém o estado com o valor da lista de estados
+let estadoSelecionado = document.getElementById("estado-selecionado").value;
+// Checa se o valor da lista de estados está vazio ou não
+if (!estadoSelecionado) {
+    section.innerHTML = "<h3>Nenhum estado selecionado.</h3><h3>Por favor, escolha um dos estados da lista</h3>";
+    return;
+}
+
+//Precisa validar se o campo está vazio ou não quando aperta 'enter'
+
 // Obtém o elemento de entrada da caixa de pesquisa
 let campoPesquisa = document.getElementById("campo-pesquisa");
 
@@ -9,7 +19,9 @@ campoPesquisa.addEventListener('keyup', function(event) {
     }
 });
 
-function pesquisar() {
+//Precisa implementar o código pra exibir resultados de acordo com o estado selecionado
+
+function pesquisar(estadoSelecionado) {
     // Obtém a seção com o valor do campo da pesquisa
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
     // Converte todo o texto digitado para letras minúsculas
