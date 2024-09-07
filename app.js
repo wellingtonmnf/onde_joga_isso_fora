@@ -1,3 +1,14 @@
+// Obtém o elemento de entrada da caixa de pesquisa
+let campoPesquisa = document.getElementById("campo-pesquisa");
+
+// Adiciona um evento de escuta para o evento 'keyup'
+campoPesquisa.addEventListener('keyup', function(event) {
+    // Verifica se a tecla pressionada foi 'Enter'
+    if (event.key === 'Enter') {
+        pesquisar();
+    }
+});
+
 function pesquisar() {
     // Obtém a seção com o valor do campo da pesquisa
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
@@ -26,7 +37,8 @@ function pesquisar() {
                     <h2>
                         <a href="#" target="_blank" rel="noopener noreferrer">${dado.titulo}</a>
                     </h2>
-                    <p class="descricao-meta">${dado.descricao}</p>
+                    <p class="descricao-meta"><strong>Endereço:</strong> ${dado.endereco}</p>
+                    <p class="descricao-meta"><strong>Horário de atendimento:</strong> ${dado.horario}</p>
                     <a href=${dado.link} target="_blank">Mais informações</a>
                 </div>
             `;

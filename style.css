@@ -25,6 +25,8 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
     padding-top: 25px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 /* Estiliza o subtítulo da página principal*/
@@ -34,6 +36,8 @@ h1 {
     color: #e9d2b2; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.1rem; /* Espaçamento entre letras */
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 /* Estiliza as seções da página */
@@ -44,9 +48,49 @@ section {
     margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
 }
 
+.barra-dividida {
+    display: flex; /* adiciona flexbox para alinhar os elementos lado a lado */
+    align-items: center; /* alinha os elementos verticalmente */
+}
+  
+.lista-estados {
+    display: inline-block; /* alinha os elementos lado a lado */
+    width: 20%; /* define a largura do primeiro elemento */
+    height: 60px; /* define a altura do primeiro elemento */
+    margin: 10px; /* adiciona um espaço entre os elementos */
+    border-right: none; /* remove a borda direita do primeiro elemento */
+}
+  
+#campo-pesquisa {
+    display: inline-block; /* alinha os elementos lado a lado */
+    width: 85%; /* define a largura do segundo elemento */
+    height: 60px; /* define a altura do segundo elemento */
+    margin: 10px; /* adiciona um espaço entre os elementos */
+}
+  
+#botao {
+    display: inline-block; /* alinha os elementos lado a lado */
+    width: 10%; /* define a largura do terceiro elemento */
+    height: 60px; /* define a altura do terceiro elemento */
+    margin: 10px; /* adiciona um espaço entre os elementos */
+    border-left: none; /* remove a borda esquerda do terceiro elemento */
+}
+
+/* Estiliza as listas dentro das seções */
+section select {
+    width: 7.5rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #3a413b; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 20rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
@@ -65,12 +109,23 @@ section button {
     color: #2F743b; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
     background-color: #f0c78e; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+/* Estiliza a imagem do botão*/
+.imagem-botao {
+    width: 5%; /* Define a largura do SVG */
+    height: 5%; /* Define a altura do SVG */
+    padding-left: 0vw;
+    padding-right: 0.35vw;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
