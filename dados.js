@@ -196,21 +196,66 @@ let dadosBA = [
       tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados"
     },
     {
-      titulo: "Salvador Reciclagem",
-      endereco:"Av. Jorge Amado, 40 - Imbuí, Salvador - BA,",
-      horario:"SEG-SAB 08:00 às 17:00",
-      link: "https://www.instagram.com/salvadorreciclagem/",
-      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados"
+      titulo: "Ecoponto | Itacorubi",
+      endereco:"Rodovia Admar Gonzaga, 72, Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 19:00",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
     },
     {
-      titulo: "Recicla Salvador",
-      endereco:"R. Édson Saldanha, 210a - Luís Anselmo, Salvador - BA",
-      horario:"SEG-SEX 08:30 às 17:30 | SAB 08:30 às 15:30",
-      link: "https://www.instagram.com/reciclasalvador/",
-      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados"
+      titulo: "Ecoponto | Morro das Pedras",
+      endereco:"Rua Francisco Vieira, 198, em frente à Padaria Moreira, Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 18:30",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
+    },
+    {
+      titulo: "Ecoponto | Canasvieiras",
+      endereco:"Rua Desembargador Maurílio Coimbra (próximo campo da Amocan), Florianópolis - SC,",
+      horario:"SEG-SEX 07:30 às 17:30 | SAB 07:30 às 11:30",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
+    },
+    {
+      titulo: "Ecoponto | Capoeiras",
+      endereco:"Terminal de Capoeiras, Rua Professor Egídio Ferreira, s/n, Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 19:00",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
+    },
+    {
+      titulo: "Ecoponto | Monte Cristo",
+      endereco:"Rua Professor Joaquim, Nabuco, 2948 (ao lado da Associação Recicladores Esperança Aresp), Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 19:00",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor esponjas livros"
+    },
+    {
+      titulo: "Ecoponto | Rio Vermelho",
+      endereco:"Rua Cândido Pereira dos Anjos, s/n, Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 19:00",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
+    },
+    {
+      titulo: "Ecoponto | Ingleses",
+      endereco:"Rua Via Local Insular, Projeto 50346, S/N (atrás da subestação da CELESC), Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 19:00",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
+    },
+    {
+      titulo: "Ecoponto | Costeira",
+      endereco:"Avenida Jorge Lacerda, nº 1374 (ao lado do NEIM Costeira), Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 19:00",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
+    },
+    {
+      titulo: "Ecoponto | Coloninha",
+      endereco:"Rua Araci Vaz Callado, nº 2000, Florianópolis - SC,",
+      horario:"SEG-DOM 07:00 às 19:00",
+      link: "https://www.pmf.sc.gov.br/entidades/residuos/index.php?cms=ecopontos+da+smma&menu=4&submenuid=150",
+      tipoResiduo: "leite longa vida  longavida tetra paks  tetrapaks alumínio aluminio óleos oleos papel papeis papelão papelao pet plásticos plasticos vidros eletros eletrodomésticos eletrônicos eletroportáteis eletrodomesticos eletronicos eletroportateis roupas calçados calcados isopor compostáveis compostaveis pneus esponjas livros"
     },
   ];
-
-
-
-
