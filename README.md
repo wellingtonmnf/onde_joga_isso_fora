@@ -12,7 +12,7 @@ Se você já se fez alguma dessas perguntas:
 
 **Bem... você chegou ao lugar certo! 🎉**
 
-### O que faz essa aplicação? ###
+## O que faz essa aplicação? ##
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🌎  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
@@ -38,13 +38,13 @@ Se você já se fez alguma dessas perguntas:
 
 ---
 
-### Como usar: ###
+## Como usar: ##
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
 
 ---
 
-### Quer contribuir? ###
+## Quer contribuir? ##
 
 **Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
