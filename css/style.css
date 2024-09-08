@@ -163,13 +163,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
-/* Estiliza a imagem do botão*/
-.imagem-botao {
-    width: 100%; /* Ocupa toda a largura do botão */
-    height: 100%; /* Ocupa toda a altura do botão */
-    object-fit: contain; /* Manter proporção */
-}
-
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
