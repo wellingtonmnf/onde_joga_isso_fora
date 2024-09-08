@@ -59,6 +59,10 @@ body {
     transform: scale(1.1); /* expande o elemento sem afetar a posição */
 }
 
+header {
+    padding-top: 15%;    
+}
+
 /* Estiliza os títulos h1 */
 h1 {
     font-family: "Cabin Sketch", sans-serif; /* Define a fonte padrão */
@@ -66,7 +70,7 @@ h1 {
     color: #e9d2b2; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
-    margin-top: 50px;
+    margin-top: 25px;
     padding-top: 25px; /* Adiciona um espaçamento de 20px entre o título e a margem superior */
     padding-left: 5vw;
     padding-right: 5vw;
@@ -113,8 +117,6 @@ section {
 .descricao-sobre h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
     color: #e9d2b2; /* Cor do texto */
-    margin-top: 10px;
-    padding-top: 5px;
 }
 
 /* Estiliza cada card de dicas */
