@@ -183,7 +183,7 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     left: 0; /* Define a posição do footer na esquerda da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
