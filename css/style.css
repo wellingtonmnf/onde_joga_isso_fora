@@ -105,7 +105,7 @@ section {
 }
 
 .barra-dividida {
-    width: 100%; /* A barra ocupa toda a largura da tela */
+    width: auto; /* A barra ocupa toda a largura da tela */
     display: flex; /* Adiciona Flexbox para alinhar os elementos lado a lado */
     justify-content: space-around; /* Distribui o espaço entre os elementos */
     align-items: center; /* Alinha os elementos verticalmente */
