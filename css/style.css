@@ -105,7 +105,7 @@ section {
 }
 
 .barra-dividida {
-    width: auto; /* A barra ocupa toda a largura da tela */
+    width: 100%; /* A barra ocupa toda a largura da tela */
     display: flex; /* Adiciona Flexbox para alinhar os elementos lado a lado */
     justify-content: space-around; /* Distribui o espaço entre os elementos */
     align-items: center; /* Alinha os elementos verticalmente */
@@ -246,6 +246,10 @@ footer a:hover {
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
 
+    .lista-estados, #campo-pesquisa, #botao {
+        width: 30%; /* Ajuste a largura para telas menores */
+    }
+
     section input {
         width: 25rem; /* Largura dos inputs em telas menores */
         padding: 0.8rem; /* Espaçamento interno em telas menores */
@@ -267,6 +271,10 @@ footer a:hover {
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    .lista-estados, #campo-pesquisa, #botao {
+        width: 45%; /* Ajuste a largura para telas ainda menores */
     }
 
     section input {
