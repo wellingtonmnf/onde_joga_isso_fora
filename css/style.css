@@ -14,7 +14,6 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    overflow-y: hidden;
 }
 
 .menu-topo {
@@ -124,6 +123,7 @@ section {
     color: #3a413b; /* Cor do texto */
     background-color: #e9d2b2; /* Cor de fundo */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    width: 20%;
 }
   
 #campo-pesquisa {
@@ -140,6 +140,7 @@ section {
     font-size: 1rem; /* Tamanho da fonte */
     color: #3a413b; /* Cor do texto */
     background-color: #e9d2b2; /* Cor de fundo */
+    width: 50%;
 }
   
 #botao {
@@ -155,6 +156,7 @@ section {
     color: #3a413b; /* Cor do texto */
     background-color: #e9d2b2; /* Cor de fundo */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    width: 30%;
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
