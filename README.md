@@ -155,4 +155,4 @@ Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil d
 
 </div>
 
-**#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
+**#reciclagem #descarte #resuduo #residuos #descarteconsciente #meioambiente #sustentabilidade #sustentavel #ondejogaissofora #app #aplicacao #github #open-source**
