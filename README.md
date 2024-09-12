@@ -20,6 +20,8 @@ Se você já se fez alguma dessas perguntas:
 
 A missão do projeto é tornar o descarte responsável simples e acessível para todos! 👨‍👩‍👧‍👦 Cada um de nós pode fazer a diferença no cuidado com o meio ambiente e construir um futuro mais sustentável. 🌱
 
+**Confira mais sobre o projeto a seguir ⬇️**
+
 ---
 
 <details><summary><h2>⚙️ Funcionamento</h2></summary>
@@ -155,4 +157,4 @@ Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil d
 
 </div>
 
-**#reciclagem #descarte #resuduo #residuos #descarteconsciente #meioambiente #sustentabilidade #sustentavel #ondejogaissofora #app #aplicacao #github #open-source**
+**#reciclagem #descarte #residuo #residuos #descarteconsciente #meioambiente #sustentabilidade #sustentavel #ondejogaissofora #app #aplicacao #github #open-source**
