@@ -13,7 +13,8 @@ Se você já se fez alguma dessas perguntas:
 **Bem... você chegou ao lugar certo!** 📌🗺️
 
 ---
-<details><summary><h2>O que faz essa aplicação? 📑</h2></summary>
+
+<details><summary><h3>O que faz essa aplicação? 📑</h3></summary>
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🗑️  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
@@ -31,7 +32,9 @@ Se você já se fez alguma dessas perguntas:
 
 </details>
 
-<details><summary><h2>Por que usar o "Onde Joga Isso Fora?" ❓</h2></summary>
+---
+
+<details><summary><h3>Por que usar o "Onde Joga Isso Fora?" ❓</h3></summary>
 
 * **Diga adeus à confusão:** Jogue fora o que precisa, sem ter que perder tempo pesquisando a fio na internet. 🚫
 * **Seja um agente da reciclagem:** Faça a diferença no meio ambiente, cuidando do planeta e descartando tudo no lugar certo.  🦸
@@ -40,15 +43,18 @@ Se você já se fez alguma dessas perguntas:
 **Vamos juntos nesta jornada rumo a um futuro mais sustentável!** 💚
 
 </details>
+
 ---
-<details><summary><h2>Como usar: 🎮</h2></summary>
+
+<details><summary><h3>Como usar: 🎮</h3></summary>
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
 </details>
+
 ---
 
-<details><summary><h2>Quer contribuir? 💡</h2></summary>
+<details><summary><h3>Quer contribuir? 💡</h3></summary>
 
 **Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
@@ -81,7 +87,9 @@ Se você já se fez alguma dessas perguntas:
 
  </details>
 
-<details><summary><h2>Licença 📜</h2></summary>
+ ---
+
+<details><summary><h3>Licença 📜</h3></summary>
 
  Este projeto está licenciado sob a licença MIT. Este projeto foi desenvolvido apenas para fins educacionais e não possui fins comerciais.
 
