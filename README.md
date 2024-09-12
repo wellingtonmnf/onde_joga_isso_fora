@@ -32,8 +32,6 @@ Se você já se fez alguma dessas perguntas:
 
 </details>
 
-<hr>
-
 <details><summary><h3>Por que usar o "Onde Joga Isso Fora?" ❓</h3></summary>
 
 * **Diga adeus à confusão:** Jogue fora o que precisa, sem ter que perder tempo pesquisando a fio na internet. 🚫
@@ -44,15 +42,11 @@ Se você já se fez alguma dessas perguntas:
 
 </details>
 
-<hr>
-
 <details><summary><h3>Como usar: 🎮</h3></summary>
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
 </details>
-
-<hr>
 
 <details><summary><h3>Quer contribuir? 💡</h3></summary>
 
@@ -87,8 +81,6 @@ Se você já se fez alguma dessas perguntas:
 
  </details>
 
- <hr>
-
 <details><summary><h3>Licença 📜</h3></summary>
 
  Este projeto está licenciado sob a licença MIT. Este projeto foi desenvolvido apenas para fins educacionais e não possui fins comerciais.
@@ -97,17 +89,13 @@ Se você já se fez alguma dessas perguntas:
 
 ---
 
-<div style="text-align: center;">
-
-<h2>"Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo! ♻️</h2>  
-
-**#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
+### "Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo! ♻️ 
 
 ***1, 2, 3... YES!***
 
 ![YES gif README.md](imagens/giphy.webp)
 
-</div>
+**#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
 
 ---
 
@@ -116,12 +104,10 @@ Se você já se fez alguma dessas perguntas:
 **Wellington Morais | [Perfil no GitHub](https://github.com/wellingtonmnf)**
 
 * **Deploy: 06/09/2024**
-* **Última atualização: 07/09/2024**
+* **Última atualização: 12/09/2024**
 
 ---
-## Considerações pontuais
-
-### Projeto base da Imersão Dev_ com Gemini da Alura
+## Considerações pontuais 📝
 
 Este projeto foi criado durante a Imersão Dev_ com Gemini realizada pela Alura, entre os dias 02 e 06 setembro de 2024
 
