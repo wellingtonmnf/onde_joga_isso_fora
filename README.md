@@ -32,7 +32,7 @@ Se você já se fez alguma dessas perguntas:
 
 </details>
 
----
+<hr>
 
 <details><summary><h3>Por que usar o "Onde Joga Isso Fora?" ❓</h3></summary>
 
@@ -44,7 +44,7 @@ Se você já se fez alguma dessas perguntas:
 
 </details>
 
----
+<hr>
 
 <details><summary><h3>Como usar: 🎮</h3></summary>
 
@@ -52,7 +52,7 @@ Se você já se fez alguma dessas perguntas:
 
 </details>
 
----
+<hr>
 
 <details><summary><h3>Quer contribuir? 💡</h3></summary>
 
@@ -87,7 +87,7 @@ Se você já se fez alguma dessas perguntas:
 
  </details>
 
- ---
+ <hr>
 
 <details><summary><h3>Licença 📜</h3></summary>
 
@@ -97,13 +97,17 @@ Se você já se fez alguma dessas perguntas:
 
 ---
 
-## "Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo! ♻️  
+<div style="text-align: center;">
+
+<h2>"Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo! ♻️</h2>  
 
 **#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
 
 ***1, 2, 3... YES!***
 
 ![YES gif README.md](imagens/giphy.webp)
+
+</div>
 
 ---
 
