@@ -12,13 +12,13 @@ Se você já se fez alguma dessas perguntas:
 
 **Bem... você chegou ao lugar certo!** 📌🗺️
 
-## 📑 O que faz essa aplicação? 
+## 📋 O que faz essa aplicação? 
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🗑️  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
 ### ⚙️ Como funciona? 
 
-1. **Pesquisa simples:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como endereço e horários.  
+1. **Pesquisa simples:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como endereço e horários. 📫🕙
 2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca. 📃
 3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos. 🔗
 
@@ -36,11 +36,11 @@ Se você já se fez alguma dessas perguntas:
 
 **Vamos juntos nesta jornada rumo a um futuro mais sustentável!** 💚
 
-## 🎮 Como usar: 
+## 🌐 Como usar: 
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
-## 🚀 Tecnologias usadas: 
+## 🛠 Tecnologias usadas: 
 
 * **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 💀
 * **CSS:** O estilo da página, deixando tudo bonito e organizado. 💄
@@ -56,9 +56,22 @@ Se você já se fez alguma dessas perguntas:
 
 </div>
 
+## 📂 Estrutura do Projeto
+
+
+## 🚀 Futuras Melhorias
+- [ ] **Login e Favoritos**: Criar um sistema de login e salvar ferramentas favoritas.
+- [ ] **Avaliações e Comentários**: Permitir avaliações e comentários dos usuários.
+- [ ] **Suporte a Múltiplos Idiomas**: Adicionar suporte para vários idiomas.
+- [ ] **Compartilhamento**: Facilitar o compartilhamento em redes sociais.
+- [ ] **Filtros Personalizados**: Adicionar filtros por tags e preço.
+- [ ] **Experiência Offline**: Implementar PWA para uso offline.
+- [ ] **Tutoriais e Guias**: Adicionar tutoriais e guias úteis.
+- [ ] **Barra de Navegação**: Adicionar mais itens.
+
 ## 💪 Quer contribuir? 
 
-**💡 Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
+**🧭 Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
 1. **Clone o repositório:** Use o Git para baixar o código para o seu computador. 🔀
 2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 🔍
@@ -66,8 +79,8 @@ Se você já se fez alguma dessas perguntas:
 
 ## 🔬 Observações: 
 
-* **Dados:** Os dados dos pontos de coleta estão armazenados no arquivo `dados.js`. Você pode adicionar ou modificar esses dados para personalizar a aplicação.
-* **Melhorias:** Essa é apenas uma versão inicial da aplicação. Existem muitas possibilidades de melhorias, como:
+* **🎲 Dados:** Os dados dos pontos de coleta estão armazenados no arquivo `dados.js`. Você pode adicionar ou modificar esses dados para personalizar a aplicação.
+* **📑 Melhorias:** Essa é apenas uma versão inicial da aplicação. Existem muitas possibilidades de melhorias, como:
     * **Base de Dados:** Adicionar pontos de coleta por estados que a aplicação ainda não contempla.
     * **Filtros:** Adicionar filtros para buscar por resíduo ou outras características.
     * **Detalhes:** Mostrar mais detalhes sobre cada resíduo, como tempo de vida, contaminação, periculosidade.
