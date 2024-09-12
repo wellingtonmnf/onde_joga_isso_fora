@@ -1,6 +1,6 @@
 ## ♻️ "Onde Joga Isso Fora?" - O seu guia do descarte consciente! ♻️ 
 
-<img src="imagens/capa.png" alt="Capa" align="center">
+<img src="imagens/capa.png" alt="Capa">
 
 **Olá, exploradores da vida sustentável!** 👋 
 
@@ -28,25 +28,31 @@ Se você já se fez alguma dessas perguntas:
 
 * **Dicas e truques:**  Aprenda dicas de como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱 
 
-<img src="imagens/dicas.png" alt="Dicas" align="center" width="50%" height="50%">
+<div id="imagem-dicas" align="center">
+
+<img src="imagens/dicas.png" alt="Dicas" width="70%" height="70%">
+
+</div>
 
 ## ❓ Por que usar o "Onde Joga Isso Fora?" 
 
-* **Diga adeus à confusão:** Jogue fora o que precisa, sem ter que perder tempo pesquisando a fio na internet. 🚫
-* **Seja um agente da reciclagem:** Faça a diferença no meio ambiente, cuidando do planeta e descartando tudo no lugar certo.  🦸
-* **Viva mais tranquilo:** Descarte os resíduos com segurança e evite problemas com o descarte inadequado. 😌
+* **🚫 Diga adeus à confusão:** Jogue fora o que precisa, sem ter que perder tempo pesquisando a fio na internet.
+* **🦸 Seja um agente da reciclagem:** Faça a diferença no meio ambiente, cuidando do planeta e descartando tudo no lugar certo. 
+* **😌 Viva mais tranquilo:** Descarte os resíduos com segurança e evite problemas com o descarte inadequado.
 
 **Vamos juntos nesta jornada rumo a um futuro mais sustentável!** 💚
 
 ## 🌐 Como usar: 
 
-1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
+1. **🔗 Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
+
+---
 
 <details><summary><h2>Estrutura</h2></summary>
 
 ## 🛠 Tecnologias usadas: 
 
-* **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 💀
+* **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 🦴
 * **CSS:** O estilo da página, deixando tudo bonito e organizado. 💄
 * **JavaScript:** A parte mais inteligente, que faz a busca e mostra os resultados na tela. 🧠
 * **Google Gemini:** A ferramenta de IA do google que é capaz de fazer coisas inacreditáveis 🪄 (inclusive ajudar muito um desenvolvedor de software 😅).
@@ -118,15 +124,17 @@ Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil d
 
 </details> 
 
+---
+
 </div>
 
 <div id="mensagem" align="center">
 
 ## ♻️ Venha reciclar a sua relação com o lixo!  
 
-***1, 2, 3... YES!***
+<img src="imagens/giphy.webp" alt="YES gif README.md">
 
-<img src="imagens/giphy.webp" alt="YES gif README.md" align="center">
+## 1, 2, 3... YES!
 
 </div>
 
