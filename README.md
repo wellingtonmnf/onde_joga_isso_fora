@@ -12,7 +12,7 @@ Se você já se fez alguma dessas perguntas:
 
 **Bem... você chegou ao lugar certo!** 📌🗺️
 
-# Sobre
+<details><summary><h3>Sobre</h3></summary>
 
 ## 📋 Sobre o "Onde Joga Isso Fora?" 
 
@@ -42,7 +42,9 @@ Se você já se fez alguma dessas perguntas:
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
-# Estrutura
+</details> 
+
+<details><summary><h3>Estrutura</h3></summary>
 
 ## 🛠 Tecnologias usadas: 
 
@@ -70,7 +72,9 @@ Se você já se fez alguma dessas perguntas:
 - [ ] **Geolocalização**: Implementar API do Google Maps para geolizalização dos ecopontos.
 - [ ] **Barra de Navegação**: Adicionar mais itens como 'Resíduos' e 'Tratamento'.
 
-# Contribua
+</details> 
+
+<details><summary><h3>Contribua</h3></summary>
 
 ## 💪 Quer contribuir? 
 
@@ -91,7 +95,9 @@ Se você já se fez alguma dessas perguntas:
 
 **Sinta-se livre para contribuir para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
 
-# Assinatura
+</details> 
+
+<details><summary><h3>Assinatura</h3></summary>
 
 ## 📜 Licença 
 
@@ -112,7 +118,19 @@ Por conta de seu propósito educacional, o código JavaScript foi implementado e
 
 Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil do GitHub ou quaisquer meios expostos neste.
 
-## ♻️ "Onde Joga Isso Fora?" - Venha reciclar a sua relação com o lixo!  
+</details> 
+
+<div id="mensagem" align="center">
+
+## ♻️ Venha reciclar a sua relação com o lixo!  
+
+***1, 2, 3... YES!***
+
+<img src="imagens/giphy.webp" alt="YES gif README.md" align="center">
+
+</div>
+
+## ♻️ Venha reciclar a sua relação com o lixo!  
 
 ***1, 2, 3... YES!***
 
