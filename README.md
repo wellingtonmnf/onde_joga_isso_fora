@@ -13,7 +13,7 @@ Se você já se fez alguma dessas perguntas:
 **Bem... você chegou ao lugar certo!** 📌🗺️
 
 ---
-<details><h3>O que faz essa aplicação? 📑</h3>
+<details><summary><h2>O que faz essa aplicação? 📑</h2></summary>
 
 ## O que faz essa aplicação? 📑 
 
@@ -49,7 +49,7 @@ Se você já se fez alguma dessas perguntas:
 
 ---
 
-## Quer contribuir? 💡
+<details><summary><h2>Quer contribuir? 💡 📑</h2></summary>
 
 **Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
@@ -82,6 +82,8 @@ Se você já se fez alguma dessas perguntas:
 
  ## 📜 Licença
  Este projeto está licenciado sob a licença MIT.
+
+ </details>
 
 ---
 
