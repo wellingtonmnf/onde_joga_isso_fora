@@ -1,6 +1,6 @@
 ## ♻️ "Onde Joga Isso Fora?" - O seu guia do descarte consciente! ♻️ 
 
-<img src="imagens/capa.png" alt="Capa" align="center" height="350px">
+<img src="imagens/capa.png" alt="Capa" align="center">
 
 **Olá, exploradores da vida sustentável!** 👋 
 
@@ -22,7 +22,7 @@ Se você já se fez alguma dessas perguntas:
 2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca. 📃
 3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos. 🔗
 
-➕ **E mais!**
+### ➕ E mais!
 
 * **Dicas e truques:**  Aprenda dicas de como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱 
 
@@ -40,14 +40,6 @@ Se você já se fez alguma dessas perguntas:
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
-## 💡 Quer contribuir? 
-
-**Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
-
-1. **Clone o repositório:** Use o Git para baixar o código para o seu computador.
-2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 🔍
-3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 🛠️
-
 ## 🚀 Tecnologias usadas: 
 
 * **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 💀
@@ -55,10 +47,22 @@ Se você já se fez alguma dessas perguntas:
 * **JavaScript:** A parte mais inteligente, que faz a busca e mostra os resultados na tela. 🧠
 * **Google Gemini:** A ferramenta de IA do google que é capaz de fazer coisas inacreditáveis 🪄 (inclusive ajudar muito um desenvolvedor de software 😅).
 
+<div id="techs" align='center'> 
+
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=999999&logo=html5&logoColor=white) 
 ![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=999999&logo=css3&logoColor=white) 
 ![JavaScript Badge](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&labelColor=999999&logo=JavaScript&logoColor=white) 
 ![Gemini Badge](https://img.shields.io/badge/google_gemini-8E75B2?style=for-the-badge&labelColor=999999&logo=googlegemini&logoColor=white)   
+
+</div>
+
+## 💪 Quer contribuir? 
+
+**💡 Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
+
+1. **Clone o repositório:** Use o Git para baixar o código para o seu computador. 🔀
+2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 🔍
+3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 🛠️
 
 ## 🔬 Observações: 
 
