@@ -12,7 +12,9 @@ Se você já se fez alguma dessas perguntas:
 
 **Bem... você chegou ao lugar certo!** 📌🗺️
 
-## 📋 O que faz essa aplicação? 
+# Sobre
+
+## 📋 Sobre o "Onde Joga Isso Fora?" 
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🗑️  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
@@ -40,6 +42,8 @@ Se você já se fez alguma dessas perguntas:
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
+# Estrutura
+
 ## 🛠 Tecnologias usadas: 
 
 * **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 💀
@@ -60,22 +64,21 @@ Se você já se fez alguma dessas perguntas:
 
 
 ## 🚀 Futuras Melhorias
-- [ ] **Login e Favoritos**: Criar um sistema de login e salvar ferramentas favoritas.
-- [ ] **Avaliações e Comentários**: Permitir avaliações e comentários dos usuários.
-- [ ] **Suporte a Múltiplos Idiomas**: Adicionar suporte para vários idiomas.
+
 - [ ] **Compartilhamento**: Facilitar o compartilhamento em redes sociais.
-- [ ] **Filtros Personalizados**: Adicionar filtros por tags e preço.
-- [ ] **Experiência Offline**: Implementar PWA para uso offline.
-- [ ] **Tutoriais e Guias**: Adicionar tutoriais e guias úteis.
-- [ ] **Barra de Navegação**: Adicionar mais itens.
+- [ ] **Filtros Personalizados**: Adicionar filtros por resíduos ou região.
+- [ ] **Geolocalização**: Implementar API do Google Maps para geolizalização dos ecopontos.
+- [ ] **Barra de Navegação**: Adicionar mais itens como 'Resíduos' e 'Tratamento'.
+
+# Contribua
 
 ## 💪 Quer contribuir? 
 
 **🧭 Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
-1. **Clone o repositório:** Use o Git para baixar o código para o seu computador. 🔀
-2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 🔍
-3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 🛠️
+1. **🔀 Clone o repositório:** Use o Git para baixar o código para o seu computador. 
+2. **🔍 Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 
+3. **🛠️ Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 
 
 ## 🔬 Observações: 
 
@@ -87,6 +90,8 @@ Se você já se fez alguma dessas perguntas:
     * **Design:** Melhorar a aparência da página para torná-la mais atraente.
 
 **Sinta-se livre para contribuir para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
+
+# Assinatura
 
 ## 📜 Licença 
 
@@ -107,7 +112,7 @@ Por conta de seu propósito educacional, o código JavaScript foi implementado e
 
 Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil do GitHub ou quaisquer meios expostos neste.
 
-## ♻️ "Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo!  
+## ♻️ "Onde Joga Isso Fora?" - Venha reciclar a sua relação com o lixo!  
 
 ***1, 2, 3... YES!***
 
