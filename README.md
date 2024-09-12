@@ -1,21 +1,19 @@
-##  ♻️  "Onde Joga Isso Fora?" - O seu guia para descartar de forma consciente! ♻️ 
+##  ♻️  "Onde Joga Isso Fora?" - O seu guia do descarte consciente! ♻️ 
 
 <img src="imagens/capa.png" alt="Capa" align="center">
 
-**Olá, exploradores do descarte consciente!** 👋 
+**Olá, exploradores da vida sustentável!** 👋 
 
 Se você já se fez alguma dessas perguntas: 
 
 * *"Eu jogo essa lâmpada velha no lixo comum mesmo?"* 💡
 * *"Será que esse óleo de fritura vai entupir meu esgoto?"* 🪣
-* *"Tem algum lugar pra eu empilhar essa pilha de pilhas?"* 🔋
+* *"Tem algum lugar pra eu empilhar essa pilha de pilhas?"* 🔋🔋🔋
 
 **Bem... você chegou ao lugar certo!** 📌🗺️
 
 ---
 <details><summary><h2>O que faz essa aplicação? 📑</h2></summary>
-
-## O que faz essa aplicação? 📑 
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🗑️  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
@@ -33,7 +31,7 @@ Se você já se fez alguma dessas perguntas:
 
 </details>
 
-**Por que "Onde Joga Isso Fora?" é o app que você precisa?** ❓
+<details><summary><h2>Por que usar o "Onde Joga Isso Fora?" ❓</h2></summary>
 
 * **Diga adeus à confusão:** Jogue fora o que precisa, sem ter que perder tempo pesquisando a fio na internet. 🚫
 * **Seja um agente da reciclagem:** Faça a diferença no meio ambiente, cuidando do planeta e descartando tudo no lugar certo.  🦸
@@ -41,15 +39,16 @@ Se você já se fez alguma dessas perguntas:
 
 **Vamos juntos nesta jornada rumo a um futuro mais sustentável!** 💚
 
+</details>
 ---
-
-## Como usar: 📖
+<details><summary><h2>Como usar: 🎮</h2></summary>
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
+</details>
 ---
 
-<details><summary><h2>Quer contribuir? 💡 📑</h2></summary>
+<details><summary><h2>Quer contribuir? 💡</h2></summary>
 
 **Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
@@ -80,24 +79,27 @@ Se você já se fez alguma dessas perguntas:
 
 **Sinta-se livre para contribuir para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
 
- ## 📜 Licença
- Este projeto está licenciado sob a licença MIT.
+ </details>
+
+<details><summary><h2>Licença 📜</h2></summary>
+
+ Este projeto está licenciado sob a licença MIT. Este projeto foi desenvolvido apenas para fins educacionais e não possui fins comerciais.
 
  </details>
 
 ---
 
-## "Onde Joga Isso Fora?", o app que vai mudar a sua relação com o lixo! 🚀 ##
+## "Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo! ♻️  
 
 **#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
 
-**1, 2, 3... YES!**
+***1, 2, 3... YES!***
 
 ![YES gif README.md](imagens/giphy.webp)
 
 ---
 
-### Desenvolvido por: ###
+### Desenvolvido por: 
 
 **Wellington Morais | [Perfil no GitHub](https://github.com/wellingtonmnf)**
 
@@ -105,7 +107,7 @@ Se você já se fez alguma dessas perguntas:
 * **Última atualização: 07/09/2024**
 
 ---
-## Considerações pontuais ##
+## Considerações pontuais
 
 ### Projeto base da Imersão Dev_ com Gemini da Alura
 
