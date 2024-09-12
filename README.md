@@ -18,7 +18,9 @@ Se você já se fez alguma dessas perguntas:
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🗑️  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
-### ⚙️ Como funciona? 
+<details><summary><h2>⚙️ Funcionamento</h2></summary>
+
+### 🛠️ Como funciona? 
 
 1. **Pesquisa simples:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como endereço e horários. 📫🕙
 2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca. 📃
@@ -42,13 +44,17 @@ Se você já se fez alguma dessas perguntas:
 
 **Vamos juntos nesta jornada rumo a um futuro mais sustentável!** 💚
 
+<details>
+
+---
+
 ## 🌐 Como usar: 
 
 1. **🔗 Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
 
 ---
 
-<details><summary><h2>Estrutura</h2></summary>
+<details><summary><h2>🏗️ Estrutura</h2></summary>
 
 ## 🛠 Tecnologias usadas: 
 
@@ -78,7 +84,9 @@ Se você já se fez alguma dessas perguntas:
 
 </details> 
 
-<details><summary><h2>Contribuição</h2></summary>
+---
+
+<details><summary><h2>🔨 Contribuição</h2></summary>
 
 ## 💪 Quer contribuir? 
 
@@ -86,7 +94,7 @@ Se você já se fez alguma dessas perguntas:
 
 1. **🔀 Clone o repositório:** Use o Git para baixar o código para o seu computador. 
 2. **🔍 Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 
-3. **🛠️ Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 
+3. **🪛 Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 
 
 ## 🔬 Observações: 
 
@@ -101,7 +109,9 @@ Se você já se fez alguma dessas perguntas:
 
 </details> 
 
-<details><summary><h2>Desenvolvimento</h2></summary>
+---
+
+<details><summary><h2>💻 Desenvolvimento</h2></summary>
 
 ## 🧑‍💻 Desenvolvido por: 
 
@@ -130,11 +140,11 @@ Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil d
 
 <div id="mensagem" align="center">
 
-## ♻️ Venha reciclar a sua relação com o lixo!  
+## 1, 2, 3... YES!
 
 <img src="imagens/giphy.webp" alt="YES gif README.md">
 
-## 1, 2, 3... YES!
+## ♻️ Venha reciclar a sua relação com o lixo! ♻️ 
 
 </div>
 
