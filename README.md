@@ -14,9 +14,11 @@ Se você já se fez alguma dessas perguntas:
 
 <div id="conteudo">
 
-## 📋 Sobre o "Onde Joga Isso Fora?" 
+## 📋 Sobre  
 
 **"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🗑️  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
+
+A missão do projeto é tornar o descarte responsável simples e acessível para todos! 👨‍👩‍👧‍👦 Cada um de nós pode fazer a diferença no cuidado com o meio ambiente e construir um futuro mais sustentável. 🌱
 
 <details><summary><h2>⚙️ Funcionamento</h2></summary>
 
@@ -28,11 +30,11 @@ Se você já se fez alguma dessas perguntas:
 
 ### ➕ E mais!
 
-* **Dicas e truques:**  Aprenda dicas de como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱 
+* **Dicas e truques:**  Aprenda dicas de como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". ♻️🌲 
 
 <div id="imagem-dicas" align="center">
 
-<img src="imagens/dicas.png" alt="Dicas" width="70%" height="70%">
+<img src="imagens/dicas.png" alt="Dicas" width="75%" height="75%">
 
 </div>
 
@@ -44,13 +46,13 @@ Se você já se fez alguma dessas perguntas:
 
 **Vamos juntos nesta jornada rumo a um futuro mais sustentável!** 💚
 
-<details>
+</details>
 
 ---
 
 ## 🌐 Como usar: 
 
-1. **🔗 Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
+**🔗 Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
 
 ---
 
