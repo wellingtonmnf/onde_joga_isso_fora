@@ -12,7 +12,7 @@ Se você já se fez alguma dessas perguntas:
 
 **Bem... você chegou ao lugar certo!** 📌🗺️
 
-<details><summary><h3>Sobre</h3></summary>
+<div id="conteudo">
 
 ## 📋 Sobre o "Onde Joga Isso Fora?" 
 
@@ -28,7 +28,7 @@ Se você já se fez alguma dessas perguntas:
 
 * **Dicas e truques:**  Aprenda dicas de como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱 
 
-<img src="imagens/dicas.png" alt="Dicas" align="center">
+<img src="imagens/dicas.png" alt="Dicas" align="center" width="50%" height="50%">
 
 ## ❓ Por que usar o "Onde Joga Isso Fora?" 
 
@@ -42,9 +42,7 @@ Se você já se fez alguma dessas perguntas:
 
 1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
-</details> 
-
-<details><summary><h3>Estrutura</h3></summary>
+<details><summary><h2>Estrutura</h2></summary>
 
 ## 🛠 Tecnologias usadas: 
 
@@ -74,7 +72,7 @@ Se você já se fez alguma dessas perguntas:
 
 </details> 
 
-<details><summary><h3>Contribua</h3></summary>
+<details><summary><h2>Contribuição</h2></summary>
 
 ## 💪 Quer contribuir? 
 
@@ -97,11 +95,7 @@ Se você já se fez alguma dessas perguntas:
 
 </details> 
 
-<details><summary><h3>Assinatura</h3></summary>
-
-## 📜 Licença 
-
- Este projeto está licenciado sob a licença MIT. Este projeto foi desenvolvido apenas para fins educacionais e não possui fins comerciais.
+<details><summary><h2>Desenvolvimento</h2></summary>
 
 ## 🧑‍💻 Desenvolvido por: 
 
@@ -109,6 +103,10 @@ Se você já se fez alguma dessas perguntas:
 
 * **Deploy: 06/09/2024**
 * **Última atualização: 12/09/2024**
+
+## 📜 Licença 
+
+ Este projeto está licenciado sob a licença MIT. Este projeto foi desenvolvido apenas para fins educacionais e não possui fins comerciais.
 
 ## 📝 Notas 
 
@@ -120,6 +118,8 @@ Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil d
 
 </details> 
 
+</div>
+
 <div id="mensagem" align="center">
 
 ## ♻️ Venha reciclar a sua relação com o lixo!  
@@ -129,11 +129,5 @@ Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil d
 <img src="imagens/giphy.webp" alt="YES gif README.md" align="center">
 
 </div>
-
-## ♻️ Venha reciclar a sua relação com o lixo!  
-
-***1, 2, 3... YES!***
-
-![YES gif README.md](imagens/giphy.webp)
 
 **#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
