@@ -100,17 +100,17 @@ A missão do projeto é tornar o descarte responsável simples e acessível para
 **🧭 Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
 1. **🔀 Clone o repositório:** Use o Git para baixar o código para o seu computador. 
-2. **🔍 Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 
+2. **👣 Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 
 3. **🪛 Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 
 
 ## 🔬 Observações: 
 
 * **🎲 Dados:** Os dados dos pontos de coleta estão armazenados no arquivo `dados.js`. Você pode adicionar ou modificar esses dados para personalizar a aplicação.
 * **📑 Melhorias:** Essa é apenas uma versão inicial da aplicação. Existem muitas possibilidades de melhorias, como:
-    * **Base de Dados:** Adicionar pontos de coleta por estados que a aplicação ainda não contempla.
-    * **Filtros:** Adicionar filtros para buscar por resíduo ou outras características.
-    * **Detalhes:** Mostrar mais detalhes sobre cada resíduo, como tempo de vida, contaminação, periculosidade.
-    * **Design:** Melhorar a aparência da página para torná-la mais atraente.
+    * **🗄️ Base de Dados:** Adicionar pontos de coleta por estados que a aplicação ainda não contempla.
+    * **🔍 Filtros:** Adicionar filtros para buscar por resíduo ou outras características.
+    * **💍 Detalhes:** Mostrar mais detalhes sobre cada resíduo, como tempo de vida, contaminação, periculosidade.
+    * **🎨 Design:** Melhorar a aparência da página para torná-la mais atraente.
 
 **Sinta-se livre para contribuir para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
 
@@ -147,11 +147,11 @@ Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil d
 
 <div id="mensagem" align="center">
 
-## 1, 2, 3... YES!
+## ♻️ Venha reciclar a sua relação com o lixo! ♻️ 
 
 <img src="imagens/giphy.webp" alt="YES gif README.md">
 
-## ♻️ Venha reciclar a sua relação com o lixo! ♻️ 
+## 1, 2, 3... YES!
 
 </div>
 
