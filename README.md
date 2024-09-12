@@ -20,6 +20,8 @@ Se você já se fez alguma dessas perguntas:
 
 A missão do projeto é tornar o descarte responsável simples e acessível para todos! 👨‍👩‍👧‍👦 Cada um de nós pode fazer a diferença no cuidado com o meio ambiente e construir um futuro mais sustentável. 🌱
 
+---
+
 <details><summary><h2>⚙️ Funcionamento</h2></summary>
 
 ### 🛠️ Como funciona? 
@@ -50,9 +52,11 @@ A missão do projeto é tornar o descarte responsável simples e acessível para
 
 ---
 
-## 🌐 Como usar: 
+<details><summary><h2>🌐 Como usar</h2></summary>
 
 **🔗 Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
+
+</details>
 
 ---
 
@@ -60,10 +64,10 @@ A missão do projeto é tornar o descarte responsável simples e acessível para
 
 ## 🛠 Tecnologias usadas: 
 
-* **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 🦴
-* **CSS:** O estilo da página, deixando tudo bonito e organizado. 💄
-* **JavaScript:** A parte mais inteligente, que faz a busca e mostra os resultados na tela. 🧠
-* **Google Gemini:** A ferramenta de IA do google que é capaz de fazer coisas inacreditáveis 🪄 (inclusive ajudar muito um desenvolvedor de software 😅).
+* **🦴 HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 
+* **💄 CSS:** O estilo da página, deixando tudo bonito e organizado. 
+* **🧠 JavaScript:** A parte mais inteligente, que faz a busca e mostra os resultados na tela. 
+* **🪄 Google Gemini:** A ferramenta de IA do google que é capaz de fazer coisas inacreditáveis (inclusive ajudar muito um desenvolvedor de software 😅).
 
 <div id="techs" align='center'> 
 
@@ -74,15 +78,16 @@ A missão do projeto é tornar o descarte responsável simples e acessível para
 
 </div>
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do projeto
 
 
-## 🚀 Futuras Melhorias
+## 🚀 Próximas implementações
 
 - [ ] **Compartilhamento**: Facilitar o compartilhamento em redes sociais.
 - [ ] **Filtros Personalizados**: Adicionar filtros por resíduos ou região.
 - [ ] **Geolocalização**: Implementar API do Google Maps para geolizalização dos ecopontos.
 - [ ] **Barra de Navegação**: Adicionar mais itens como 'Resíduos' e 'Tratamento'.
+- [ ] **Responsividade**: Melhoria na responsividade dos elementos.
 
 </details> 
 
