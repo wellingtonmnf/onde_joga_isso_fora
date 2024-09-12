@@ -1,6 +1,6 @@
-##  ♻️  "Onde Joga Isso Fora?" - O seu guia do descarte consciente! ♻️ 
+## ♻️ "Onde Joga Isso Fora?" - O seu guia do descarte consciente! ♻️ 
 
-<img src="imagens/capa.png" alt="Capa" align="center">
+<img src="imagens/capa.png" alt="Capa" align="center" height="350px">
 
 **Olá, exploradores da vida sustentável!** 👋 
 
@@ -22,7 +22,7 @@ Se você já se fez alguma dessas perguntas:
 2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca. 📃
 3. **Clique e descubra:** Cada resultado te leva para um link com mais informações sobre o ponto de coleta de resíduos. 🔗
 
-**E mais!**
+➕ **E mais!**
 
 * **Dicas e truques:**  Aprenda dicas de como preparar os itens para descarte e também para reduzir o desperdício e reutilizar materiais, tornando sua vida mais sustentável e menos "lixosa". 🌱 
 
@@ -48,19 +48,19 @@ Se você já se fez alguma dessas perguntas:
 2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 🔍
 3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 🛠️
 
-### 🚀 Tecnologias usadas: 
-
-![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=999999&logo=html5&logoColor=white) 
-![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=999999&logo=css3&logoColor=white) 
-![JavaScript Badge](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&labelColor=999999&logo=JavaScript&logoColor=white) 
-![Gemini Badge](https://img.shields.io/badge/google_gemini-8E75B2?style=for-the-badge&labelColor=999999&logo=googlegemini&logoColor=white) 
+## 🚀 Tecnologias usadas: 
 
 * **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 💀
 * **CSS:** O estilo da página, deixando tudo bonito e organizado. 💄
 * **JavaScript:** A parte mais inteligente, que faz a busca e mostra os resultados na tela. 🧠
 * **Google Gemini:** A ferramenta de IA do google que é capaz de fazer coisas inacreditáveis 🪄 (inclusive ajudar muito um desenvolvedor de software 😅).
 
-### 🔬 Observações: 
+![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=999999&logo=html5&logoColor=white) 
+![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=999999&logo=css3&logoColor=white) 
+![JavaScript Badge](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&labelColor=999999&logo=JavaScript&logoColor=white) 
+![Gemini Badge](https://img.shields.io/badge/google_gemini-8E75B2?style=for-the-badge&labelColor=999999&logo=googlegemini&logoColor=white)   
+
+## 🔬 Observações: 
 
 * **Dados:** Os dados dos pontos de coleta estão armazenados no arquivo `dados.js`. Você pode adicionar ou modificar esses dados para personalizar a aplicação.
 * **Melhorias:** Essa é apenas uma versão inicial da aplicação. Existem muitas possibilidades de melhorias, como:
@@ -74,14 +74,6 @@ Se você já se fez alguma dessas perguntas:
 ## 📜 Licença 
 
  Este projeto está licenciado sob a licença MIT. Este projeto foi desenvolvido apenas para fins educacionais e não possui fins comerciais.
-
-### ♻️ "Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo!  
-
-***1, 2, 3... YES!***
-
-![YES gif README.md](imagens/giphy.webp)
-
-**#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
 
 ## 🧑‍💻 Desenvolvido por: 
 
@@ -97,3 +89,11 @@ Este projeto foi criado durante a Imersão Dev_ com Gemini realizada pela Alura,
 Por conta de seu propósito educacional, o código JavaScript foi implementado e totalmente comentado para um melhor entendimento daqueles que tiverem dúvidas. 
 
 Quaisquer dúvidas ou esclarecimentos, por favor entrem em contato pelo perfil do GitHub ou quaisquer meios expostos neste.
+
+## ♻️ "Onde Joga Isso Fora?", o app que vai reciclar a sua relação com o lixo!  
+
+***1, 2, 3... YES!***
+
+![YES gif README.md](imagens/giphy.webp)
+
+**#reciclagem #descarteconsciente #meioambiente #sustentabilidade #ondejoga #app #aplicacao #github #open-source**
