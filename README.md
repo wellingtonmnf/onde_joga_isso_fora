@@ -6,19 +6,20 @@
 
 Se você já se fez alguma dessas perguntas: 
 
-* "Eu jogo essa lâmpada velha no lixo comum mesmo?" 💡
-* "Será que esse óleo de fritura vai entupir meu esgoto?" 🪣
-* "Tem algum lugar pra eu empilhar essa pilha de pilhas?" 🔋
+* *"Eu jogo essa lâmpada velha no lixo comum mesmo?"* 💡
+* *"Será que esse óleo de fritura vai entupir meu esgoto?"* 🪣
+* *"Tem algum lugar pra eu empilhar essa pilha de pilhas?"* 🔋
 
-**Bem... você chegou ao lugar certo! 🎉**
+**Bem... você chegou ao lugar certo!** 📌🗺️
 
 ---
+<details><h3>O que faz essa aplicação? 📑</h3>
 
-## O que faz essa aplicação? ##
+## O que faz essa aplicação? 📑 
 
-**"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🌎  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
+**"Onde Joga Isso Fora?"** é a aplicação que vai reciclar a ideia de como você deve lidar com seus resíduos. 🗑️  Imagine um lugar onde encontrar um ponto de coleta para qualquer tipo de material é tão fácil quanto pedir um delivery! 🍕
 
-**Como funciona?**
+**Como funciona?** ⚙️
 
 1. **Pesquisa simples:** Digite o tipo de resíduo que você quer descartar (pilhas, remédios, plástico, etc.) e pronto! ✨ O app mostra os locais de coleta mais próximos de você, com informações detalhadas como endereço e horários.  
 2. **Mágica acontece:** A aplicação vasculha todos os dados dos pontos de descarte e te mostra os resultados que combinam com a sua busca. 📃
@@ -30,7 +31,9 @@ Se você já se fez alguma dessas perguntas:
 
 <img src="imagens/dicas.png" alt="Dicas" align="center">
 
-**Por que "Onde Joga Isso Fora?" é o app que você precisa?**
+</details>
+
+**Por que "Onde Joga Isso Fora?" é o app que você precisa?** ❓
 
 * **Diga adeus à confusão:** Jogue fora o que precisa, sem ter que perder tempo pesquisando a fio na internet. 🚫
 * **Seja um agente da reciclagem:** Faça a diferença no meio ambiente, cuidando do planeta e descartando tudo no lugar certo.  🦸
@@ -40,28 +43,33 @@ Se você já se fez alguma dessas perguntas:
 
 ---
 
-## Como usar: ##
+## Como usar: 📖
 
-1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 
+1. **Acesse o link:** [Clique aqui](https://onde-joga-isso-fora.vercel.app/) para abrir a aplicação web e testar a busca na base de dados. 🔗
 
 ---
 
-## Quer contribuir? ##
+## Quer contribuir? 💡
 
 **Para melhorar o "Onde Joga Isso Fora?", siga estas etapas:**
 
 1. **Clone o repositório:** Use o Git para baixar o código para o seu computador.
-2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento.
-3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto!
+2. **Explore o código:** Navegue pelo código desenvolvido para entender seu funcionamento. 🔍
+3. **Faça melhorias:** A aplicação web é de código aberto e usa a MIT License. Fique à vontade para implementar melhorias e contribuir com o projeto! 🛠️
 
-**Tecnologias usadas:**
+**Tecnologias usadas:** 🚀
 
-* **HTML:** A estrutura básica da página, como se fosse a ossatura de um site.
-* **CSS:** O estilo da página, deixando tudo bonito e organizado.
-* **JavaScript:** A parte mais inteligente, que faz a busca e mostra os resultados na tela.
-* **Google Gemini:** A ferramenta de IA do google que é capaz de fazer coisas inacreditáveis (inclusive ajudar muito um desenvolvedor de software 😅).
+![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=999999&logo=html5&logoColor=white) 
+![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=999999&logo=css3&logoColor=white) 
+![JavaScript Badge](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&labelColor=999999&logo=JavaScript&logoColor=white) 
+![Gemini Badge](https://img.shields.io/badge/google_gemini-8E75B2?style=for-the-badge&labelColor=999999&logo=googlegemini&logoColor=white) 
 
-**Observações:**
+* **HTML:** A estrutura básica da página, como se fosse a ossatura de um site. 💀
+* **CSS:** O estilo da página, deixando tudo bonito e organizado. 💄
+* **JavaScript:** A parte mais inteligente, que faz a busca e mostra os resultados na tela. 🧠
+* **Google Gemini:** A ferramenta de IA do google que é capaz de fazer coisas inacreditáveis 🪄 (inclusive ajudar muito um desenvolvedor de software 😅).
+
+**Observações:** 🔬
 
 * **Dados:** Os dados dos pontos de coleta estão armazenados no arquivo `dados.js`. Você pode adicionar ou modificar esses dados para personalizar a aplicação.
 * **Melhorias:** Essa é apenas uma versão inicial da aplicação. Existem muitas possibilidades de melhorias, como:
@@ -71,6 +79,9 @@ Se você já se fez alguma dessas perguntas:
     * **Design:** Melhorar a aparência da página para torná-la mais atraente.
 
 **Sinta-se livre para contribuir para este projeto!** 🙌 Se você tiver alguma dúvida ou quiser colaborar, abra uma issue ou pull request. 😉
+
+ ## 📜 Licença
+ Este projeto está licenciado sob a licença MIT.
 
 ---
 
